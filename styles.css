@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  color: #212f3d;
+}
+h2 {
+  text-transform: capitalize;
+}
+input {
+  text-align: center;
+}
+
+.home-work {
+  background-image: url(./img/bgjs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.tab-content {
+  margin-left: 5rem;
+}
+.row {
+  position: relative;
+  top: 200px;
+}
+.nav .nav-link {
+  margin-bottom: 1rem;
+  background-color: #ecf0f1;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+.nav .nav-link:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 1);
+  color: #000;
+}
+.tab-pane select {
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.tab-pane input {
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.btn:hover {
+  transform: scale(5);
+}
